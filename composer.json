@@ -1,0 +1,13 @@
+{
+    "name": "rentalbro/models",
+    "description": "models for rental bro",
+    "license": "personal",
+    "authors": [
+        {
+            "name": "Akhamat",
+            "email": "akhamatmkhoir@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
