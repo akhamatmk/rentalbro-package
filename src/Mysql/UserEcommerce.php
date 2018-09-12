@@ -36,11 +36,11 @@ class UserEcommerce extends Model implements Authenticatable, JWTSubject
 
     public function shop()
     {
-    	return $this->hasOne('Akhamatvarokah\Rentbro\Models\Mysql\Shop', 'user_ecommerce_id', 'id');
+    	return $this->hasOne(Shop::class, 'user_ecommerce_id', 'id');
     }
 
     public function vendor()
     {
-        return $this->hasMany('Akhamatvarokah\Rentbro\Models\Mysql\Vendor', 'user_ecommerce_id', 'id');
+        return $this->hasMany(Vendor::class, 'user_ecommerce_id', 'id');
     }
 }
