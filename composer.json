@@ -1,7 +1,7 @@
 {
     "name": "rentalbro/models",
     "description": "models for rental bro",
-    "license": "personal",
+    "license": "MIT",
     "authors": [
         {
             "name": "Akhamat",
