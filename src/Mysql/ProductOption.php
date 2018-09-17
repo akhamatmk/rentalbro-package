@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class ProductOption extends Model
 {
-	protected $table = 'product_option';
+	public function value()
+	{
+		return $this->hasMany(ProductOptionValue::class, 'product_option_id', 'id')->orderBy('order', 'ASC');
+	}
 }
