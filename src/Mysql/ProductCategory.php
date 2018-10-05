@@ -9,4 +9,9 @@ class ProductCategory extends Model
 {
 	use SoftDeletes;
 	protected $table = 'product_category';
+
+	public function category()
+	{
+		return $this->hasOne(Category::class, 'id', 'category_id');
+	}
 }
