@@ -4,7 +4,7 @@ namespace Rentalbro\Models\Mysql;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Transactions extends Model
+class Transaction extends Model
 {
 	
 }
